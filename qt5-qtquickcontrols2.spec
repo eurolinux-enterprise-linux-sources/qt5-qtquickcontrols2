@@ -4,7 +4,7 @@
 
 Name:    qt5-%{qt_module}
 Summary: Qt5 - module with set of QtQuick controls for embedded
-Version: 5.9.2
+Version: 5.9.7
 Release: 1%{?dist}
 License: GPLv2+ or LGPLv3 and GFDL
 Url:     http://www.qt.io
@@ -129,6 +129,10 @@ rm -f %{buildroot}%{_qt5_libdir}/libQt5*.la
 
 
 %changelog
+* Thu Feb 07 2019 Jan Grulich <jgrulich@redhat.com> - 5.9.7-1
+- Update to 5.9.7
+  Resolves: bz#1564011
+
 * Fri Oct 06 2017 Jan Grulich <jgrulich@redhat.com> - 5.9.2-1
 - Update to 5.9.2
   Resolves: bz#1482807
